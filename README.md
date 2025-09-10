@@ -18,10 +18,8 @@ The project focuses on applying both **classical statistical models** and **deep
   - Implemented a reproducible **training & evaluation pipeline**.  
   - Benchmarked a **SARIMA baseline** against **Seq-to-Seq LSTM models** in TensorFlow.  
 
-- **Results**:  
-  - Improved short-term forecast accuracy on held-out **AAPL stock data**.  
-  - **MAPE = 3%** (7-day horizon) vs. naïve baseline of **4%**.  
-
----
-
 ## 📂 Repository Structure
+├── data/ # Raw and processed datasets
+├── notebooks/ # Jupyter notebooks for exploration & experiments
+├── src/ # Source code for preprocessing, modeling, evaluation
+└── README.md 
